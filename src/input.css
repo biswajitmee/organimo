@@ -1,0 +1,567 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+
+
+@layer components {
+  .headingText {
+    @apply text-5xl font-semibold leading-normal;
+  }
+
+  .headingSmall {
+    @apply fontFmly text-6xl;
+  }
+
+  .headingBig {
+    @apply fontFmly text-9xl;
+  }
+
+  .headingBig1 {
+    @apply fontFmly text-9xl;
+  }
+
+  .headingBig2 {
+    @apply fontFmly text-7xl;
+  }
+
+
+}
+
+
+
+@layer utilities {
+
+.navigation{ background-color: #fff;
+   backdrop-filter: blur(5px); }
+
+
+  .char {
+    display: inline-block;
+    /* Other styles if necessary */
+  }
+
+  .noisebg {
+    background: url('./noise.png');
+    background-color: rgba(166, 255, 0, 0.7);
+ 
+  }
+
+  .bgHead {
+    background: url('./uperBgNew.jpg');
+  }
+
+  .DivCenter {
+    width: 600px;
+    margin: auto;
+  }
+
+  .fontFmly {
+    font-family: 'Orelega One', serif;
+  }
+
+  .clr-fnt {
+    color: #EFBA00;
+  }
+
+
+  .logo-border {
+    border: 1px dashed #fff;
+    margin: -30px auto;
+    padding: 14px;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+  }
+
+  .logo-bg {
+    background-color: #fff;
+    margin: auto;
+    border-radius: 100px;
+    width: 170px;
+    height: 170px;
+  }
+
+  .logo-bg img {
+    scale: 1.15;
+  }
+
+  .menuicon {
+    float: right;
+  }
+
+  .borderDashed {
+    border-bottom: 1px dashed #fff;
+  }
+
+
+
+  section {
+    min-height: 80vh;
+  }
+
+  .testgsap {
+    margin-top: 150vh;
+    min-height: 100vh;
+    background-color: blueviolet;
+  }
+
+  .box {
+    margin-top: 50vh;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 38, 255);
+  }
+
+  .AnimationBackgrond {
+    width: 100%;
+    background: url('./noise.png');
+    background-color: rgba(202, 216, 0, 0.7);
+    top: 0;
+    position: relative;
+    overflow: hidden;
+    margin-top: 5px;
+    padding-top: 10px;
+  }
+
+
+  .ab {
+    border: 2px dashed #fff;
+    height: 80vh;
+    width: 40vh;
+    border-radius: 50px;
+  }
+
+  .bc {
+    height: 80vh;
+    width: 600px;
+  }
+
+  .cd {
+    border: 2px dashed #fff;
+    height: 86vh;
+    width: 46vh;
+    border-radius: 50px;
+  }
+
+
+  .de {
+    width: 50vw;
+  }
+
+  .ef {
+    width: 50vw;
+  }
+
+  .borderDash {
+    border: 2px dashed #fff;
+  }
+
+  .banaLayer {
+    position: absolute;
+    width: 100%;
+    height: 60vh;
+    z-index: 999;
+    top:  5%;
+  }
+
+ 
+
+  .chocolateLayer {
+    position: absolute;
+    width: 100%;
+    height: 60vh;
+    z-index: 999;
+    top:  5%;
+     
+  }
+
+  .strawberyLayer {
+    position: absolute;
+    width: 100%;
+    height: 60vh;
+    z-index: 999;
+    top:  5%;
+  }
+
+  .cofferLayer {
+    position: absolute;
+    width: 100%;
+    height: 60vh;
+    z-index: 999;
+    top:  5%;
+  }
+
+
+
+
+
+
+
+  .SelectLayerAnimation {
+    width: 80%;
+    margin:10% auto 0;
+    position: relative;
+    z-index: 999;
+  }
+
+  .selectBananaLayer {
+    height: 220px;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    padding: 50px 10px;
+  }
+
+
+
+  .selectCholateLayer {
+    height: 220px;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    padding: 50px 10px;
+  }
+
+  .selectStrawberryLayer {
+    height: 220px;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    padding: 50px 10px;
+  }
+
+  .selectCoffeLayer {
+    height: 220px;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    padding: 50px 10px;
+  }
+
+
+
+
+
+  .round {
+    border: 2px dashed #EFBA00;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    margin-left: 15px;
+  }
+
+  .undersectionBanana {
+    height: 100%;
+    background-color: #EEB43C;
+    margin-top: -80px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 70px;
+    color: #fff;
+  }
+
+  .undersectionCholate {
+    height: 100%;
+    background-color: #B58870;
+    margin-top: -80px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 70px;
+    color: #fff;
+  }
+
+  .undersectionStrawberry {
+    height: 100%;
+    background-color: #FF464D;
+    margin-top: -80px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 70px;
+    color: #fff;
+  }
+
+  .undersectionCoffe {
+    height: 100%;
+    background-color: #4C2923;
+    margin-top: -80px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 70px;
+    color: #fff;
+  }
+
+  .bottle img {
+    height: 250px;
+    margin-top: -130px;
+    margin-left: 25px;
+  }
+
+  .round img {
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .arrowButton {
+    width: 350px;
+    height: 100px;  
+    margin: auto;
+    z-index: 9;
+    top: -50%;
+    position: relative;
+ 
+  }
+
+  .leftArrow {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px dashed #000;
+    margin: 5px;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .rightArrow {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px dashed #000;
+    margin: 5px;
+    float: right;
+    text-align: center;
+    padding: 15px;
+  }
+
+
+
+
+
+
+  .bridge {
+    position: relative;
+    min-height: 100vh;
+  }
+
+  .bridgeScroll {
+    position: absolute;
+    z-index: 9;
+    margin-top: 30vh;
+    left: 90vw;
+    height: 200px;
+  }
+
+  .microService {
+    width: 300px;
+    height: 400px;
+    margin: 5px;
+    background-color: red;
+    border-radius: 20px;
+    opacity: 0.5;
+  }
+
+  .scrollContainer {
+    overscroll-behavior: none;
+    width: 600%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .centered {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 40vw;
+    transform: translate(-50%, -50%);
+  }
+  .centered img {
+    position: absolute;
+    top:0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+  .centered1 {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 40vw;
+    transform: translate(-50%, -50%);
+  }
+  .centered1 img {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .centered2 {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 440px;
+    height: 440px;
+    transform: translate(-50%, -50%);
+  }
+
+  .centered3 {
+    position: absolute;
+    top:  0%;
+    left: 50%;     
+    transform: translate(-50%, -50%);
+  }
+
+  .centered3 img{
+    position: absolute;
+    top: -10%;
+    left: 50%;     
+    transform: translate(-50%, -50%);
+  }
+
+
+.flowColor_1{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  border-radius: 100%;
+  width: 220px;
+  height: 220px;
+  transform: translate(-50%, -50%);
+ 
+   }
+
+   .flowColor_2{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    border-radius: 100%;
+    width: 220px;
+    height: 220px;
+    transform: translate(-50%, -50%);
+    
+     }
+
+     .flowColor_3{
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      border-radius: 100%;
+      width: 220px;
+      height: 220px;
+      transform: translate(-50%, -50%);
+  
+       }
+
+       .flowColor_4{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        border-radius: 100%;
+        width: 220px;
+        height: 220px;
+        transform: translate(-50%, -50%);
+       
+         }
+  
+
+
+
+  
+         .slide {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: flex-end; /* Start at the bottom */
+          opacity: 0;
+          transform: scale(0.8); /* Start with a smaller scale */
+          transform-origin: center bottom;
+          transition: transform 0.5s, opacity 0.5s;
+        }
+        
+
+  .bg_blue {
+    background-color: blue;
+  }
+
+  .bg_red {
+    background-color: rgb(255, 0, 0);
+  }
+
+  .bg_gree {
+    background-color: rgb(0, 255, 21);
+  }
+
+  .bg_yellow {
+    background-color: rgb(255, 238, 0);
+  }
+
+
+  .chocolate_1,
+  .chocolate_2,
+  .chocolate_3,
+  .chocolate_4,
+  .chocolate_5,
+  .chocolate_6 {
+    position: absolute;
+  }
+
+
+  .strawberry_1,
+  .strawberry_2,
+  .strawberry_3,
+  .strawberry_4,
+  .strawberry_5,
+  .strawberry_6 {
+    position: absolute;
+  }
+
+  .coffeeBeans_1,
+  .coffeeBeans_2,
+  .coffeeBeans_3,
+  .coffeeBeans_4,
+  .coffeeBeans_5,
+  .coffeeBeans_6
+   { position: absolute;
+  }
+
+  .banana_1,
+  .banana_2,
+  .banana_3,
+  .banana_4,
+  .banana_5,
+  .banana_6 {
+    position: absolute;
+
+  }
+
+
+  
+  
+  .btn {
+    padding: 50px;
+    background-color: aqua;
+    font-size: 30px;
+    color: #FF464D;
+  }
+
+
+
+
+.name{ font-size:80px;}
+
+
+
+
+
+
+}
