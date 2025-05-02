@@ -32,7 +32,7 @@ export default function ScrollSection() {
 
   return (
     <div style={{}}>
-      <Canvas
+      <Canvas shadows
         style={{ width: "100vw", height: "100vh" }}
         gl={{ preserveDrawingBuffer: true }}
       >
@@ -72,7 +72,7 @@ function Scene() {
       <ambientLight intensity={0.2} />
       <directionalLight />
           <PerspectiveCamera
-        position={[0, 0, 0]}
+        position={[0, 0, 30]}  
         theatreKey="Camera"
         makeDefault
         near={5}
