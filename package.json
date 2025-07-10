@@ -1,6 +1,6 @@
 {
-  "homepage": "https://github.com/biswajitmee/errorburner",
-  "name": "camera-animation",
+  "homepage": "https://github.com/biswajitmee/organimo",
+  "name": "threejs-animation",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -27,6 +27,7 @@
     "git-all": "^0.0.3",
     "gltf-loader": "^1.0.0",
     "gsap": "file:gsap-bonus.tgz",
+    "leva": "^0.10.0",
     "math-random": "^2.0.1",
     "matter-js": "^0.19.0",
     "p5": "^1.7.0",

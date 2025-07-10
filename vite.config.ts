@@ -28,7 +28,7 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 
 export default defineConfig({
-  base: "/theterjsonsetup/", // 👈 Must match GitHub repo name
+  base: "/", // 👈 Must match GitHub repo name
   plugins: [react()],
   resolve: {
     alias: {
