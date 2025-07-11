@@ -26,8 +26,7 @@ import MilkBottle from './components/MilkBottle'
 import CloudMountain from './components/CloudMountain'
 import CloudVolumetric from './components/CloudVolumetric'
 import FogCircle from './components/FogCircle'
-
-
+ import { Fish } from './components/Fish'
 
 export default function ScrollSection () {
   useEffect(() => {
@@ -55,8 +54,8 @@ export default function ScrollSection () {
         style={{ width: '100vw', height: '100vh' }}
         gl={{ preserveDrawingBuffer: true }}
       >
- {/* <fog attach="fog" color="#D6C1FF" near={2000} far={5500} /> */}
-<FogCircle
+ <fog attach="fog" color="#D6C1FF" near={3000} far={5500} />
+{/* <FogCircle
   color="#6A32D9"
   intensity={5.0}
   radius={8000}
@@ -64,7 +63,7 @@ export default function ScrollSection () {
   inner={0.85}
   outer={0.95}
   softness={3}
-/>
+/> */}
 
 
 
@@ -127,8 +126,8 @@ function Scene () {
       </e.group>
       <e.group theatreKey='CloudMountain1' position={[0, 0, -1]}>
         <CloudMountain
-          numPlanes={200}
-          xSpread={1500}
+          numPlanes={1000}
+          xSpread={2000}
           ySpread={100}
           zSpread={30}
           baseScale={100}
@@ -146,6 +145,12 @@ function Scene () {
         far={6000}
         fov={15}
       />
+
+         <e.group theatreKey='Fish' position={[0, 0, -1]}>
+    <Fish scale={20}/>
+      </e.group>
+
+
 
       <directionalLight
         position={[5, 10, 5]}
