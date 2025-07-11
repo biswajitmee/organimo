@@ -47,7 +47,7 @@ export default function ScrollSection () {
 
   return (
     <div style={{}}>
-      <Canvas
+      <Canvas   camera={{ position: [20, 10, 20], fov: 30 }}
         //  onCreated={({ scene }) => {
         //     scene.fog = new THREE.Fog('#2714F3', 800, 3000)
         //   }}
